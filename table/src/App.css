@@ -1,0 +1,85 @@
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ff6600;
+  margin-bottom: 24px;
+}
+
+.search-bar {
+  margin-bottom: 24px;
+}
+
+.columns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-weight: bold;
+}
+
+.person-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.person-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+}
+
+.person-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 9%;
+  padding-right: 5%;
+}
+
+.name-info {
+  font-weight: bold;
+}
+
+.company-info {
+  margin-left: 200px;
+}
+
+.email-info {
+  margin-left: 200px;
+}
+
+
+/* .phone-info {
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
+} */
+
+/* .person-card h3 {
+  font-size: 18px;
+  margin: 0;
+} */
+
+/* .person-card p {
+  font-size: 14px;
+  margin: 5px 0;
+} */
+
+.person-card button {
+  background-color: #0074cc;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.person-card button:hover {
+  background-color: #0056b3;
+}
