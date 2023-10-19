@@ -33,6 +33,7 @@ export default function App() {
                 tasks.concat({
                   id: id++,
                   label: newTask.trim(),
+                  // The trim() method of String values removes whitespace from both ends of this string and returns a new string, without modifying the original string.
                 }),
               );
               setNewTask('');
